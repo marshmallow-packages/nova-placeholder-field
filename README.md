@@ -4,7 +4,7 @@
 
 This package adds a Placeholder field which you can use in Laravel Nova. This package only outputs some HTML in the forms of your resource. This is not a field to store any data, just to display some stuff.
 
-<img src="/resources/img/nova-placeholder-field.png">
+<img src="/resources/img/example-nova-placeholder-field.png">
 
 [![Version](https://img.shields.io/packagist/v/marshmallow/nova-placeholder)](https://github.com/marshmallow-packages/nova-placeholder)
 [![Issues](https://img.shields.io/github/issues/marshmallow-packages/nova-placeholder)](https://github.com/marshmallow-packages/nova-placeholder)
