@@ -28,6 +28,12 @@ use Marshmallow\Placeholder\Placeholder;
 
 Placeholder::make(__('Planning'))
     ->content('Deze lead is planned to be completed on august 1. This will be done by <strong>John Doe</strong>.<br/><a href="">Click here</a> to view the full construction planning.'),
+
+
+Placeholder::make(__('Planning'))
+    ->view('components.planning', [
+        'lead' => $lead,
+    ]),
 ```
 
 ## Changelog

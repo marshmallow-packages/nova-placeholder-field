@@ -28,4 +28,11 @@ class Placeholder extends Field
             'content' => $content,
         ]);
     }
+
+    public function view(string $blade_file, array $data): self
+    {
+        return $this->withMeta([
+            'content' => (string) view($blade_file, $data),
+        ]);
+    }
 }
